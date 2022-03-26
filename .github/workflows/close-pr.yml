@@ -10,5 +10,6 @@ jobs:
   publish:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v1
-      - uses: nouzbe/check-pull-request-description@v1.11
+      - name: check-pr-descrttion
+        - uses: actions/checkout@v1
+        - uses: nouzbe/check-pull-request-description@v1.11
